@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C641471CBFA288005629BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C641461CBFA288005629BF /* AppDelegate.swift */; };
+		50C641491CBFA288005629BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C641481CBFA288005629BF /* ViewController.swift */; };
+		50C6414C1CBFA288005629BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C6414A1CBFA288005629BF /* Main.storyboard */; };
+		50C6414E1CBFA288005629BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6414D1CBFA288005629BF /* Assets.xcassets */; };
+		50C641511CBFA288005629BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C6414F1CBFA288005629BF /* LaunchScreen.storyboard */; };
+		50C6415C1CBFA288005629BF /* __TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6415B1CBFA288005629BF /* __TVTests.swift */; };
+		50C641671CBFA288005629BF /* __TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C641661CBFA288005629BF /* __TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50C641581CBFA288005629BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C6413B1CBFA288005629BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C641421CBFA288005629BF;
+			remoteInfo = "战旗TV";
+		};
+		50C641631CBFA288005629BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C6413B1CBFA288005629BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C641421CBFA288005629BF;
+			remoteInfo = "战旗TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50C641431CBFA288005629BF /* 战旗TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "战旗TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C641461CBFA288005629BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50C641481CBFA288005629BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50C6414B1CBFA288005629BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50C6414D1CBFA288005629BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50C641501CBFA288005629BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50C641521CBFA288005629BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C641571CBFA288005629BF /* 战旗TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "战旗TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C6415B1CBFA288005629BF /* __TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TVTests.swift; sourceTree = "<group>"; };
+		50C6415D1CBFA288005629BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C641621CBFA288005629BF /* 战旗TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "战旗TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C641661CBFA288005629BF /* __TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TVUITests.swift; sourceTree = "<group>"; };
+		50C641681CBFA288005629BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50C641401CBFA288005629BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C641541CBFA288005629BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6415F1CBFA288005629BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50C6413A1CBFA288005629BF = {
+			isa = PBXGroup;
+			children = (
+				50C641451CBFA288005629BF /* 战旗TV */,
+				50C6415A1CBFA288005629BF /* 战旗TVTests */,
+				50C641651CBFA288005629BF /* 战旗TVUITests */,
+				50C641441CBFA288005629BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50C641441CBFA288005629BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C641431CBFA288005629BF /* 战旗TV.app */,
+				50C641571CBFA288005629BF /* 战旗TVTests.xctest */,
+				50C641621CBFA288005629BF /* 战旗TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C641451CBFA288005629BF /* 战旗TV */ = {
+			isa = PBXGroup;
+			children = (
+				50C641461CBFA288005629BF /* AppDelegate.swift */,
+				50C641481CBFA288005629BF /* ViewController.swift */,
+				50C6414A1CBFA288005629BF /* Main.storyboard */,
+				50C6414D1CBFA288005629BF /* Assets.xcassets */,
+				50C6414F1CBFA288005629BF /* LaunchScreen.storyboard */,
+				50C641521CBFA288005629BF /* Info.plist */,
+			);
+			path = "战旗TV";
+			sourceTree = "<group>";
+		};
+		50C6415A1CBFA288005629BF /* 战旗TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				50C6415B1CBFA288005629BF /* __TVTests.swift */,
+				50C6415D1CBFA288005629BF /* Info.plist */,
+			);
+			path = "战旗TVTests";
+			sourceTree = "<group>";
+		};
+		50C641651CBFA288005629BF /* 战旗TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50C641661CBFA288005629BF /* __TVUITests.swift */,
+				50C641681CBFA288005629BF /* Info.plist */,
+			);
+			path = "战旗TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50C641421CBFA288005629BF /* 战旗TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C6416B1CBFA288005629BF /* Build configuration list for PBXNativeTarget "战旗TV" */;
+			buildPhases = (
+				50C6413F1CBFA288005629BF /* Sources */,
+				50C641401CBFA288005629BF /* Frameworks */,
+				50C641411CBFA288005629BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "战旗TV";
+			productName = "战旗TV";
+			productReference = 50C641431CBFA288005629BF /* 战旗TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50C641561CBFA288005629BF /* 战旗TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C6416E1CBFA288005629BF /* Build configuration list for PBXNativeTarget "战旗TVTests" */;
+			buildPhases = (
+				50C641531CBFA288005629BF /* Sources */,
+				50C641541CBFA288005629BF /* Frameworks */,
+				50C641551CBFA288005629BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C641591CBFA288005629BF /* PBXTargetDependency */,
+			);
+			name = "战旗TVTests";
+			productName = "战旗TVTests";
+			productReference = 50C641571CBFA288005629BF /* 战旗TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50C641611CBFA288005629BF /* 战旗TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C641711CBFA288005629BF /* Build configuration list for PBXNativeTarget "战旗TVUITests" */;
+			buildPhases = (
+				50C6415E1CBFA288005629BF /* Sources */,
+				50C6415F1CBFA288005629BF /* Frameworks */,
+				50C641601CBFA288005629BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C641641CBFA288005629BF /* PBXTargetDependency */,
+			);
+			name = "战旗TVUITests";
+			productName = "战旗TVUITests";
+			productReference = 50C641621CBFA288005629BF /* 战旗TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50C6413B1CBFA288005629BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XJ;
+				TargetAttributes = {
+					50C641421CBFA288005629BF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					50C641561CBFA288005629BF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 50C641421CBFA288005629BF;
+					};
+					50C641611CBFA288005629BF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 50C641421CBFA288005629BF;
+					};
+				};
+			};
+			buildConfigurationList = 50C6413E1CBFA288005629BF /* Build configuration list for PBXProject "战旗TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50C6413A1CBFA288005629BF;
+			productRefGroup = 50C641441CBFA288005629BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50C641421CBFA288005629BF /* 战旗TV */,
+				50C641561CBFA288005629BF /* 战旗TVTests */,
+				50C641611CBFA288005629BF /* 战旗TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50C641411CBFA288005629BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C641511CBFA288005629BF /* LaunchScreen.storyboard in Resources */,
+				50C6414E1CBFA288005629BF /* Assets.xcassets in Resources */,
+				50C6414C1CBFA288005629BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C641551CBFA288005629BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C641601CBFA288005629BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C6413F1CBFA288005629BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C641491CBFA288005629BF /* ViewController.swift in Sources */,
+				50C641471CBFA288005629BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C641531CBFA288005629BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C6415C1CBFA288005629BF /* __TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C6415E1CBFA288005629BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C641671CBFA288005629BF /* __TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50C641591CBFA288005629BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50C641421CBFA288005629BF /* 战旗TV */;
+			targetProxy = 50C641581CBFA288005629BF /* PBXContainerItemProxy */;
+		};
+		50C641641CBFA288005629BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50C641421CBFA288005629BF /* 战旗TV */;
+			targetProxy = 50C641631CBFA288005629BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50C6414A1CBFA288005629BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50C6414B1CBFA288005629BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50C6414F1CBFA288005629BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50C641501CBFA288005629BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50C641691CBFA288005629BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50C6416A1CBFA288005629BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50C6416C1CBFA288005629BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "战旗TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50C6416D1CBFA288005629BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "战旗TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50C6416F1CBFA288005629BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "战旗TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/战旗TV.app/战旗TV";
+			};
+			name = Debug;
+		};
+		50C641701CBFA288005629BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "战旗TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/战旗TV.app/战旗TV";
+			};
+			name = Release;
+		};
+		50C641721CBFA288005629BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "战旗TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "战旗TV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		50C641731CBFA288005629BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "战旗TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "战旗TV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50C6413E1CBFA288005629BF /* Build configuration list for PBXProject "战旗TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C641691CBFA288005629BF /* Debug */,
+				50C6416A1CBFA288005629BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C6416B1CBFA288005629BF /* Build configuration list for PBXNativeTarget "战旗TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C6416C1CBFA288005629BF /* Debug */,
+				50C6416D1CBFA288005629BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50C6416E1CBFA288005629BF /* Build configuration list for PBXNativeTarget "战旗TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C6416F1CBFA288005629BF /* Debug */,
+				50C641701CBFA288005629BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50C641711CBFA288005629BF /* Build configuration list for PBXNativeTarget "战旗TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C641721CBFA288005629BF /* Debug */,
+				50C641731CBFA288005629BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50C6413B1CBFA288005629BF /* Project object */;
+}
