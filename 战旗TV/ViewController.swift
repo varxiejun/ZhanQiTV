@@ -12,12 +12,25 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let tableView = UITableView()
+        let header = MJRefreshNormalHeader()
+        header.setRefreshingTarget(self, refreshingAction: Selector("headerRefresh"))
+        tableView.mj_header = header
+        
+        let footer = MJRefreshBackNormalFooter()
+        footer.setRefreshingTarget(self, refreshingAction: Selector("footerRefresh"))
+    }
+    
+    func headerRefresh(){
+        print("headerRefresh")
+    }
+    
+    func footerRefresh(){
+        print("footerRefresh")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
